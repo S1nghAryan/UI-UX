@@ -153,7 +153,7 @@ export function Certificate() {
                       className="w-full h-32 object-cover group-hover:scale-105 transition-transform"
                     />
                     <div className="p-4">
-                      <h4 className="mb-2 line-clamp-2 group-hover:text-[var(--learnflow-cta)] transition-colors">
+                      <h4 className="mb-2 line-clamp-2 transition-colors hover:opacity-80">
                         {relatedCourse.title}
                       </h4>
                       <p className="text-sm text-gray-600">{relatedCourse.instructor}</p>
